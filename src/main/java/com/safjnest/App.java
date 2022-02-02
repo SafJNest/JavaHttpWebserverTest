@@ -20,8 +20,8 @@ public class App {
         System.out.println("*************GABBIANO IN ESECUZIONE******************");
         serverSocket = new ServerSocket(80);
 
-        //InetAddress IP=InetAddress.getLocalHost();
-        InetAddress IP = InetAddress.getByName("safjnest.ddns.net");
+        InetAddress IP=InetAddress.getLocalHost();
+        //InetAddress IP = InetAddress.getByName("safjnest.ddns.net");
         System.out.println("IP of my seagull is := " + IP.getHostAddress());
         
         while (true) {

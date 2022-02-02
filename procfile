@@ -1,1 +1,1 @@
-web: java -jar target/serverotest2-1.0-SNAPSHOT.jar runserver 0.0.0.0:$PORT
+web: java -jar target/webserver-1.0-SNAPSHOT.jar runserver 0.0.0.0:$PORT
