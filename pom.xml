@@ -58,7 +58,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib/</classpathPrefix>
-                <mainClass>com.safnest.webserver</mainClass>
+                <mainClass>com.safjnest.App</mainClass>
               </manifest>
             </archive>
           </configuration>
