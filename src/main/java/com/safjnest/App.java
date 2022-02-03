@@ -19,7 +19,7 @@ public class App {
     public static void main(String[] args) throws IOException {
         System.out.println("*************GABBIANO IN ESECUZIONE******************");
         System.out.println(args[1]);
-        serverSocket = new ServerSocket(Integer.parseInt(args[1]));
+        serverSocket = new ServerSocket(Integer.parseInt(args[1].substring(args[1].indexOf(":")+1)));
 
         InetAddress IP=InetAddress.getLocalHost();
         //InetAddress IP = InetAddress.getByName("safjnest.ddns.net");
