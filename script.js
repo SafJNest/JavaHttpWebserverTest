@@ -14,7 +14,7 @@ function closeSidebar() {
 async function loadAll() {
   console.log("erger");
   //get the file
-  const response = await fetch("/rsc/commands.json");
+  const response = await fetch("commands.json");
   const aaa = await response.json();
   var json = JSON.parse(JSON.stringify(aaa));
   //put all the commands in a map grouped by category

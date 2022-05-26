@@ -1,0 +1,274 @@
+{
+    "connect":{
+        "alias" : ["join"],
+        "help"  : "Connette il bot alla stanza vocale.",
+        "category" : "Audio",
+        "arguments" : "[nomeComando]"
+    },
+
+    "customizesound":{
+        "alias" : ["custom", "cs", "personalize"],
+        "help"  : "WIP",
+        "category" : "Audio",
+        "arguments" : "[nomeComando]"
+    },
+
+    "deletesound":{
+        "alias" : ["delete", "ds", "forget"],
+        "help"  : "Rimuove il suono dal database.",
+        "category" : "Audio",
+        "arguments" : "[nomeComando]"
+    },
+
+    "disconnect":{
+        "alias" : ["bye", "chiama"],
+        "help"  : "Disconnette il bot dalla stanza vocale.",
+        "category" : "Audio",
+        "arguments" : "[nomeComando]"
+    },
+
+    "list":{
+        "alias" : ["lista"],
+        "help"  : "Mostra la lista dei souni in questo server.",
+        "category" : "Audio",
+        "arguments" : "[nomeComando]"
+    },
+
+    "play":{
+        "alias" : ["p", "yt"],
+        "help"  : "Riproduce un link di youtube.",
+        "category" : "Audio",
+        "arguments" : "[play] [link youtube]"
+    },
+
+    "playsound":{
+        "alias" : ["ps"],
+        "help"  : "Riproduce un suono dal nome.",
+        "category" : "Audio",
+        "arguments" : "[playsound] [nome del suono]"
+    },
+
+    "stop":{
+        "alias" : ["stoppete", "donteventhinkaboutit"],
+        "help"  : "Ferma la riproduzione di suoni.",
+        "category" : "Audio",
+        "arguments" : "[stop]"
+    },
+
+    "upload":{
+        "alias" : ["up", "add"],
+        "help"  :"Carica un file nel database.",
+        "category" : "Audio",
+        "arguments" : "[upload] [nome del suono]"
+    },
+
+    "channelinfo":{
+        "alias" : ["infochannel", "ci","ic","channel"],
+        "help"  : "Mostra le informazioni sul canale (sia vocale che testuale).",
+        "category" : "Gestione Server",
+        "arguments" : "[channelinfo] [#canale/id canale]"
+    },
+
+    "clear":{
+        "alias" : ["cancella"],
+        "help"  : "Cancella messaggi in un canale testuale (max 99).",
+        "category" : "Gestione Server",
+        "arguments" : "[clear] [n messaggi]"
+    },
+
+    "emojiinfo":{
+        "alias" : ["em", "eminfo"],
+        "help"  : "Mostra le informazioni di un emoji.",
+        "category" : "Gestione Server",
+        "arguments" : "[emoji] [nomeEmoji, emoji]"
+    },
+    "anonym":{
+        "alias" : ["an", "anonymous"],
+        "help"  : "Invia un messaggio anonimo in privato ad un utente.",
+        "category" : "Gestione Server",
+        "arguments" : "[msg] [@user/id] [messaggio]"
+    },
+
+    "msg":{
+        "alias" : ["messaggio", "message"],
+        "help"  : "Invia un messaggio in privato ad un utente.",
+        "category" : "Gestione Server",
+        "arguments" : "[msg] [@user/id] [messaggio]"
+    },
+
+    "serverinfo":{
+        "alias" : ["servinfo", "serinf"],
+        "help"  : "Mostra le informazioni sul server.",
+        "category" : "Gestione Server",
+        "arguments" : "[nomeComando]"
+    },
+
+    "userinfo":{
+        "alias" : ["usinf", "uinf"],
+        "help"  : "Mostra le informazioni di un utente.",
+        "category" : "Gestione Server",
+        "arguments" : "[userinfo] [@user]"
+    },
+
+    "ban":{
+        "alias" : ["banna"],
+        "help"  : "Banna un membro del server.",
+        "category" : "Gestione Membri",
+        "arguments" : "[ban] [@user] (reason)"
+    },
+
+    "image":{
+        "alias" : ["img"],
+        "help"  : "Mostra l'immagine profilo di un utente.",
+        "category" : "Gestione Membri",
+        "arguments" : "[image] [@user]"
+    },
+
+    "kick":{
+        "alias" : ["espelli"],
+        "help"  : "kickka un membro del server.",
+        "category" : "Gestione Membri",
+        "arguments" : "[kick] [@user]"
+    },
+
+    "mute":{
+        "alias" : ["muta"],
+        "help"  : "Muta un utente.",
+        "category" : "Gestione Membri",
+        "arguments" : "[mute] [@user]"
+    },
+
+    "permissions":{
+        "alias" : ["perms", "permission"],
+        "help"  : "Mostra i permessi di un membro del server.",
+        "category" : "Gestione Membri",
+        "arguments" : "[permissions] [@user]"
+    },
+
+    "unban":{
+        "alias" : ["sban", "pardon"],
+        "help"  : "Sbanna un membro del server.",
+        "category" : "Gestione Membri",
+        "arguments" : "[unbun] [@user]"
+    },
+
+    "unmute":{
+        "alias" : ["smuta"],
+        "help"  : "Smuta un utente.",
+        "category" : "Gestione Membri",
+        "arguments" : "[unmute] [@user]"
+    },
+
+    "bighi":{
+        "alias" : ["random"],
+        "help"  : "Genera un numero random a n bit.",
+        "category" : "Matematica",
+        "arguments" : "[bighi] [numero]"
+    },
+
+    "calc":{
+        "alias" : ["c", "calcolatore", "calcolatrice"],
+        "help"  : "Effettua operazioni matematiche.\nAddizione, sottrazione, moltiplicazione, divisione ed elevamento a potenza.\nLe funzioni presenti sono radice, seno, coseno e tangente, con le loro funzioni inverse, e la funzione esponenziale.",
+        "category" : "Matematica",
+        "arguments" : "[calc] [(n+n) (n-n) (n*n) (n/n) (n^n) (sqrt n) (sin n) (cos n ) (ln n) (tan n) (asin n) (acos n) (exp n)]"
+    },
+
+    "dac":{
+        "alias" : ["divideandconquer"],
+        "help"  : "Calcola quante cifre ha un numero intero (max 2^32).",
+        "category" : "Matematica",
+        "arguments" : "[dac] [numero]"
+    },
+
+    "dice":{
+        "alias" : ["dado", "lanciadado", "roll", "dice"],
+        "help"  : "Lancia uno o più dadi.",
+        "category" : "Matematica",
+        "arguments" : "[dice] (n dadi) ([n dadi] (n facce))"
+    },
+
+    "fastestroot":{
+        "alias" : ["radiceinversa", "invroot", "fisqrt"],
+        "help"  : "Calcola la radice quadrata inversa di un numero quake style.",
+        "category" : "Matematica",
+        "arguments" : "[fastinversesquareroot] [numero]"
+    },
+
+    "prime":{
+        "alias" : ["randomprime", "primo"],
+        "help"  : "Genera un numero primo a n bit.",
+        "category" : "Matematica",
+        "arguments" : "[prime] [nbit]"
+    },
+
+    "aliases":{
+        "alias" : ["alias"],
+        "help"  : "Mostra gli alias dei comandi.",
+        "category" : "Miscellaneo",
+        "arguments" : "[nomeComando]"
+    },
+
+    "bugsnotifier":{
+        "alias" : ["report", "rep", "bug"],
+        "help"  : "Reporta un bug che hai incontrato mentre usi questo bot.",
+        "category" : "Miscellaneo",
+        "cooldown" : "100",
+        "arguments" : "[bugs] [nome comando] [descrizione]"
+    },
+
+    "help":{
+        "alias" : ["command", "commands", "info"],
+        "help"  : "Mostra l'elenco di tutti i comandi o informazioni dettagliate su uno.",
+        "category" : "Miscellaneo",
+        "arguments" : "[help][nome comando]"
+    },
+
+    "ping":{
+        "alias" : ["pong", "pingpong", "latency"],
+        "help"  : "Restituisce il ping del bot in millisecondi.",
+        "category" : "Miscellaneo",
+        "arguments" : "[nomeComando]"
+    },
+
+    "ram":{
+        "alias" : ["usage"],
+        "help"  : "Mostra informazioni riguardanti l'uso della ram del bot.",
+        "category" : "Miscellaneo",
+        "arguments" : "[nomeComando]"
+    },
+
+    "rawmessage":{
+        "alias" : ["rawmsg", "rawmessage"],
+        "help"  : "Restituisce un messaggio.",
+        "category" : "Miscellaneo",
+        "arguments" : "[nomeComando][id msg]"
+    },
+
+    "downloadsound":{
+        "alias" : ["download"],
+        "help"  : "Scarica un file audio.",
+        "category" : "Audio",
+        "arguments" : "[nomeComando][nome suono]"
+    },
+
+    "move":{
+        "alias" : ["mv", "sposta"],
+        "help"  : "Sposta un membro della gilda in un altra stanza.\nè possibile spostare più di un membro alla volta.",
+        "category" : "Gestione Membri",
+        "arguments" : "[nomeComando] (here = tutti i membri del canale in cui sei) (id canale) | (me = tu) (id canale) | (membro) (id canale) | (membro) (here = canale in cui sei tu) | (membro) (afk)." 
+    },
+
+    "modifynickname":{
+        "alias" : ["modnick", "nick"],
+        "help"  : "Cambia il nickname ad un membro del server.",
+        "category" : "Gestione Membri",
+        "arguments" : "[nomeComando] [membro] [nuovo nick]"
+    },
+
+    "invitebot":{
+        "alias" : ["invite", "inbot"],
+        "help"  : "Crea un link di invito del server.",
+        "category" : "Gestione Server",
+        "arguments" : "[nomeComando]"
+    }
+}
