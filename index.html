@@ -69,12 +69,14 @@
 
     .cards-container {
       display: flex;
+      flex-direction: row;
       margin-top: 15em;
       margin-bottom: 15em;
       text-align: center;
       color: white;
     }
 
+    
     .cards-section-one{
       margin-right: 5em;
       width: 30%;
@@ -95,6 +97,32 @@
       border-radius: 10px;
     }
 
+    @media only screen and (max-width: 600px) {
+      .cards-container {
+        margin-top: 15em;
+        margin-bottom: 15em;
+        text-align: center;
+        justify-items: center;
+        color: white;
+        flex-direction:column;
+        flex-wrap: wrap;
+      }
+      .cards-section-one{
+        border: 2px solid #008080;
+        width: 100%;
+        border-radius: 10px;
+      }
+      .cards-section-two{
+        border: 2px solid #008080;
+        width: 100%;
+        border-radius: 10px;
+      }
+      .cards-section-three{
+        border: 2px solid #008080;
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
 
 
     /*BUTTON COMMANDS*/
@@ -133,6 +161,7 @@
     }
 
     .command-card{
+      
       padding: 2.8px;
       align-items: center;
     }
@@ -257,8 +286,6 @@
     <button class="w3-bar-item w3-button w3-large" onclick="closeSidebar()">Close &times;</button>
     <a href="#" class="w3-bar-item w3-button">HOME</a>
     <a href="commands.html" class="w3-bar-item w3-button">COMMANDS</a>
-    <a href="documents.html" class="w3-bar-item w3-button" onclick="backToDocuments()">DOCUMENTS</a>
-    <a href="#" class="w3-bar-item w3-button" onclick="backToStats()">STATS</a>
   </div>
 
   <div id="main">
